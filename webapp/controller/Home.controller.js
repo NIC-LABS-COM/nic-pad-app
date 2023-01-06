@@ -33,33 +33,39 @@ sap.ui.define(
 			},
 
 			onTeamsCalendar: function () {
-				window.open("https://calendar-niclabs.azurewebsites.net");
+				window.open("https://calendar-nicpad.azurewebsites.net");
 			},
 
 			onShoppingCart: function () {
-				window.open("https://shopping-cart-nicpad.azurewebsites.net");
+				window.open("https://cart-nicpad.azurewebsites.net");
 			},
 
 			onBrowseOrders: function () {
-				window.open("https://browse-orders-nicpad.azurewebsites.net");
+				window.open("https://orders-nicpad.azurewebsites.net");
 			},
 
 			onManageProducts: function () {
-				window.open("https://manage-products-nicpad.azurewebsites.net");
+				window.open("https://manage-product-nicpad.azurewebsites.net");
 			},
 
 			onShopAdmTool: function () {
-				window.open("https://shop-adm-tool-nicpad.azurewebsites.net");
+				window.open(
+					"https://shop-administration-tool-nicpad.azurewebsites.net"
+				);
 			},
 			onIceCreamMachine: function () {
-				window.open("https://shop-adm-tool-nicpad.azurewebsites.net");
+				window.open("https://ice-cream-nicpad.azurewebsites.net");
 			},
 			onChartDemoapp: function () {
-				window.open("https://shop-adm-tool-nicpad.azurewebsites.net");
+				window.open("https://chart-demo-app-nic-pad.azurewebsites.net");
 			},
 
 			onDashboard: function () {
-				window.open("https://dashboard-nicpad.azurewebsites.net/");
+				window.open("https://dashboardnicpad.azurewebsites.net");
+			},
+
+			onPerson: function () {
+				this.getRouter().navTo("personList");
 			},
 
 			onNavBack: function () {

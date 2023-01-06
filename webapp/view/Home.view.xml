@@ -26,19 +26,24 @@
                     <ImageContent src="sap-icon://key-user-settings" />
                 </TileContent>
             </GenericTile>
-            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>dashboard}" press="onDashboard" frameType="Auto">
+            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>dashBoard}" press="onDashboard" frameType="Auto">
                 <TileContent>
                     <ImageContent src="sap-icon://key-user-settings" />
                 </TileContent>
             </GenericTile>
-			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>iceCreamMachine}" press="onIceCreamMachine" frameType="Auto">
+            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>iceCreamMachine}" press="onIceCreamMachine" frameType="Auto">
                 <TileContent>
                     <ImageContent src="sap-icon://machine" />
                 </TileContent>
             </GenericTile>
-			<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>chartDemoapp}" press="onChartDemoapp" frameType="Auto">
+            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>chartDemoapp}" press="onChartDemoapp" frameType="Auto">
                 <TileContent>
                     <ImageContent src="sap-icon://business-objects-experience" />
+                </TileContent>
+            </GenericTile>
+            <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{i18n>peopleRegistrationTile}" press="onPerson" frameType="Auto">
+                <TileContent>
+                    <ImageContent src="sap-icon://add-employee" />
                 </TileContent>
             </GenericTile>
         </content>
