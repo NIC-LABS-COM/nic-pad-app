@@ -95,6 +95,9 @@ sap.ui.define(
 					);
 				}
 			},
+			onBackPress: function () {
+				window.location.reload();
+			},
 
 			onHelpPress: function () {
 				window.open("documents/UserGuide.pdf", "_blank");

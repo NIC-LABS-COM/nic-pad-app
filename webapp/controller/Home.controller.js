@@ -32,6 +32,10 @@ sap.ui.define(
 					.attachMatched(this._onRouteMatched, this);
 			},
 
+			onImportMonitor: function () {
+				this.getRouter().getTargets().display("frame");
+			},
+
 			onTeamsCalendar: function () {
 				window.open("https://calendar-nicpad.azurewebsites.net");
 			},
@@ -57,11 +61,11 @@ sap.ui.define(
 				window.open("https://ice-cream-nicpad.azurewebsites.net");
 			},
 			onChartDemoapp: function () {
-				window.open("https://chart-demo-app-nic-pad.azurewebsites.net");
+				window.open("https://chartdemapp-nicpad.azurewebsites.net");
 			},
 
 			onDashboard: function () {
-				window.open("https://dashboardnicpad.azurewebsites.net");
+				window.open("https://dashboard-nicpad.azurewebsites.net");
 			},
 
 			onPerson: function () {
